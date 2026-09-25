@@ -16,7 +16,10 @@ export default function Location() {
           </Reveal>
           <Reveal delay={150} className="relative min-h-[300px] border border-kelp overflow-hidden bg-trench">
             {venue.mapEmbedUrl ? (
-              <iframe title={`${venue.name} térkép`} src={venue.mapEmbedUrl} loading="lazy" className="absolute inset-0 w-full h-full border-0 grayscale invert contrast-90 hue-rotate-180" />
+              <>
+                <iframe title={`${venue.name} térkép`} src={venue.mapEmbedUrl} loading="lazy" className="absolute inset-0 w-full h-full border-0 grayscale invert" />
+                <div className="absolute inset-0 bg-glow/40 mix-blend-color pointer-events-none" aria-hidden="true" />
+             </>
             ) : (
               <div className="absolute inset-0 grid place-items-center" style={{ backgroundImage: 'linear-gradient(rgba(46,242,224,.12) 1px,transparent 1px),linear-gradient(90deg,rgba(46,242,224,.12) 1px,transparent 1px)', backgroundSize: '36px 36px' }}>
                 <div className="text-center"><MapPin size={56} className="mx-auto text-medusa pulse-ring rounded-full" /><p className="mt-3 font-display text-3xl text-white">{venue.city}</p></div>
