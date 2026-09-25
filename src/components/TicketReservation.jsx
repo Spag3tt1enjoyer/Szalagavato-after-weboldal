@@ -40,7 +40,7 @@ export default function TicketReservation() {
     <section id="jegyek" aria-labelledby="jegyek-h" className="py-24 md:py-36 bg-abyss relative overflow-hidden">
       <div className="absolute -right-32 top-10 w-96 h-96 rounded-full bg-medusa/10 blur-3xl" aria-hidden="true" />
       <div className="relative max-w-3xl mx-auto px-4 md:px-8">
-        <SectionHead depth="−70 m" title="JEGYFOGLALÁS" id="jegyek-h" />
+        <SectionHead depth="" title="JEGYFOGLALÁS" id="jegyek-h" />
         <Reveal>
           {status === 'done' ? (
             <div role="status" className="border-2 border-lure p-8 text-center shadow-[0_0_40px_rgba(212,255,58,.25)]">

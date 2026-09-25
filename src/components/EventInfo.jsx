@@ -12,7 +12,7 @@ export default function EventInfo() {
   return (
     <section id="ejszaka" aria-labelledby="ejszaka-h" className="relative py-24 md:py-36 bg-gradient-to-b from-abyss to-trench">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
-        <SectionHead depth="−10 m" title="AZ ÉJSZAKA" id="ejszaka-h" />
+        <SectionHead depth="" title="AZ ÉJSZAKA" id="ejszaka-h" />
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-start">
           <Reveal>
             <p className="text-2xl sm:text-3xl text-white leading-snug max-w-[34ch]">{event.intro}</p>

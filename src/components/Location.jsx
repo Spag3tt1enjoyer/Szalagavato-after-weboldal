@@ -6,7 +6,7 @@ export default function Location() {
   return (
     <section id="helyszin" aria-labelledby="helyszin-h" className="py-24 md:py-36 bg-gradient-to-b from-abyss to-trench">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
-        <SectionHead depth="−100 m" title="HELYSZÍN" id="helyszin-h" />
+        <SectionHead depth="" title="HELYSZÍN" id="helyszin-h" />
         <div className="grid lg:grid-cols-2 gap-10 items-stretch">
           <Reveal>
             <h3 className="font-display text-5xl sm:text-6xl text-white break-words">{venue.name}</h3>

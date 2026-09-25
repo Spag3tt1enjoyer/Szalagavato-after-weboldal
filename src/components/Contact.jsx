@@ -27,7 +27,7 @@ export default function Contact() {
   return (
     <section id="kapcsolat" aria-labelledby="kapcsolat-h" className="py-24 md:py-36 bg-trench">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
-        <SectionHead depth="−130 m" title="KAPCSOLAT" id="kapcsolat-h" />
+        <SectionHead depth="" title="KAPCSOLAT" id="kapcsolat-h" />
         <div className="grid lg:grid-cols-2 gap-12">
           <Reveal>
             <ul className="grid gap-5 text-xl">
